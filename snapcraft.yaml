@@ -17,6 +17,7 @@ parts:
     source-type: git
     #If you want to grab a specific revision tag, include it here
     #source-tag: juju-2.0.0
+    build-packages: [gcc]
     snap:
     - -bin/filetoconst
     - -bin/winuserdata
